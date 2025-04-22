@@ -145,7 +145,7 @@ resource "aws_iam_instance_profile" "karpenter" {
 }
 
 
-# Add this output if missing
+# Add this output if missing 
 output "aws_iam_instance_profile_karpenter_name" {
   value = aws_iam_instance_profile.karpenter.name
 }
